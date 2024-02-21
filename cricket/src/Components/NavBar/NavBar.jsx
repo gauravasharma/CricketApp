@@ -17,7 +17,7 @@ export default function NavBar()
                  <span></span>
                  <span></span>
             </div>
-            <NavLink to ="/" className="title">Spokane Cricket</NavLink>
+            <NavLink to ="/" className="title">Cricket</NavLink>
             <ul className = {menuOpen ? "open": ""}>
             <li>
                 <NavLink to="/players">Players</NavLink>
